@@ -6,17 +6,19 @@ One reusable Agent Skill for rigorous review of any task or deliverable. It chec
 
 ## 安装
 
-使用 [Skills CLI](https://github.com/vercel-labs/skills) 从本仓库全局安装：
-
-```sh
-npx skills add yunming-yan/universal-review-skill --skill universal-review --global --yes
-```
-
-仅指定某个Agent时，可添加其实际支持的名称，例如：
+使用 [Skills CLI](https://github.com/vercel-labs/skills) 从本仓库全局安装。以下命令明确指定 Codex：
 
 ```sh
 npx skills add yunming-yan/universal-review-skill --skill universal-review --global --agent codex --yes
 ```
+
+同时供 Codex 和 Claude Code 使用：
+
+```sh
+npx skills add yunming-yan/universal-review-skill --skill universal-review --global --agent codex claude-code --yes
+```
+
+其他 Agent 请把 `--agent` 后的名称改为 CLI 支持的实际目标。Skills CLI 1.7.0 的自动目标选择可能包含不支持全局安装的平台；明确目标可避免这一问题。
 
 `--global`是当前用户级安装，供各项目使用。具体发现目录和可用工具由Agent运行环境决定；Skill本身不提供文件访问或Subagent能力。
 
@@ -52,14 +54,16 @@ npx skills add yunming-yan/universal-review-skill --skill universal-review --glo
 # 查看当前用户全局Skill
 npx skills list --global
 
-# 仅更新本Skill，继续使用已登记的GitHub来源
-npx skills update universal-review --global --yes
+# 从GitHub刷新或更新本Skill，明确指定本机使用的Agent
+npx skills add yunming-yan/universal-review-skill --skill universal-review --global --agent codex claude-code --yes
 
 # 卸载本Skill
 npx skills remove universal-review --global --yes
 ```
 
-命令接口核对版本：Skills CLI 1.7.0。不要用不带名称的批量更新/卸载命令替代只管理本Skill的操作。
+刷新时按实际情况保留 `codex`、`claude-code` 或其他受支持目标。重复 `add` 会从仓库安装当前版本，也用于后续更新；只处理指定的 `universal-review`。
+
+命令接口核对版本：Skills CLI 1.7.0。该版本的 `update` 在实际更新时仍会进入自动目标选择，因此这里使用明确目标的 `add` 刷新。不要用批量更新或卸载命令替代只管理本Skill的操作。
 
 ## 包结构与验证
 
