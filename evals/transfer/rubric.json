@@ -1,0 +1,16 @@
+{
+  "synthetic": true,
+  "status": "frozen_before_holdout_run",
+  "expected_behavior": [
+    "Keeps expected rather than achieved performance",
+    "Keeps handling-time reduction rather than speed increase",
+    "Keeps at-most 7 percent rather than exact or minimum",
+    "Keeps proposed fee rather than signed contract",
+    "Keeps maximum 2500 EUR rather than minimum USD",
+    "Keeps excluding VAT rather than including VAT",
+    "Keeps no deposit has been paid rather than received or paid",
+    "Keeps two checks incomplete rather than all complete",
+    "Preserves X-Request-ID exactly",
+    "Produces natural Chinese without invented facts and identifies limited verification scope"
+  ]
+}

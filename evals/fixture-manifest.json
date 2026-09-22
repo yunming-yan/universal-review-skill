@@ -1,0 +1,87 @@
+[
+  {
+    "path": "fixtures/engineering/request.md",
+    "sha256": "eaaee41c161ccb668141c631b1ab896d41daee11c43f1a5c03ca84d0e48f86b5",
+    "bytes": 387
+  },
+  {
+    "path": "fixtures/engineering/spec.md",
+    "sha256": "92ebf9423d754e7b664f9744ee36550ab27bc7f84f91dce9e081f0447cfbeacd",
+    "bytes": 389
+  },
+  {
+    "path": "fixtures/engineering/README.md",
+    "sha256": "3e4329d4a29d2f7d18683b67b3838e30e9aea7e85995972e1b2aefb6beba3d59",
+    "bytes": 114
+  },
+  {
+    "path": "fixtures/engineering/active.json",
+    "sha256": "0822e4ae578928403fdc0f0aae01d675d30bb9c045826e0e453ca8b63aee092a",
+    "bytes": 97
+  },
+  {
+    "path": "fixtures/engineering/validator.py",
+    "sha256": "e85fa35803c3a8efd317ab76d955b7f7287461ae8817d7299c6250d96a8a2d22",
+    "bytes": 145
+  },
+  {
+    "path": "fixtures/engineering/legacy.py",
+    "sha256": "26a28a6183dd6a133e310497ed462bcaa725f7a7375e35314bf7210e817f80c9",
+    "bytes": 48
+  },
+  {
+    "path": "fixtures/engineering/entrypoint.py",
+    "sha256": "66b6cd8a5069cbb3cdd57fd811c71742988acd5d617b94dd7175e64a857baf14",
+    "bytes": 74
+  },
+  {
+    "path": "fixtures/engineering/template.txt",
+    "sha256": "26a28a6183dd6a133e310497ed462bcaa725f7a7375e35314bf7210e817f80c9",
+    "bytes": 48
+  },
+  {
+    "path": "fixtures/engineering/generate.py",
+    "sha256": "6efc9e90f4984aa9876f635633c51764ad7a8539866c015f1df076dafde2df36",
+    "bytes": 120
+  },
+  {
+    "path": "fixtures/engineering/test_validator.py",
+    "sha256": "5c76b83bc5206703ddb9965424e7b0945b254640f95630e67348004dc43977e9",
+    "bytes": 106
+  },
+  {
+    "path": "fixtures/engineering/previous-review.md",
+    "sha256": "eaf677b77617c07251fbc8b4d564a12605da2b6e571554d50c03fd15d4240205",
+    "bytes": 303
+  },
+  {
+    "path": "fixtures/editorial/request.md",
+    "sha256": "45258af6eb969f96694bfefd27aebe8e4183c3a724e6d255935c2aa05823ef04",
+    "bytes": 409
+  },
+  {
+    "path": "fixtures/editorial/source.md",
+    "sha256": "8445097ea1efbee1044057a3a17523a7fd14f080ce2043187fa335b1bd73511e",
+    "bytes": 976
+  },
+  {
+    "path": "fixtures/editorial/draft.md",
+    "sha256": "7fe499d1703c156922cf726042514135097e9128f9f3039a5d5a4e9f99e43448",
+    "bytes": 808
+  },
+  {
+    "path": "fixtures/planning/request.md",
+    "sha256": "f47df5741f01640f83e10567908446188a950cd7db96955341d8a5877b6913a2",
+    "bytes": 350
+  },
+  {
+    "path": "fixtures/planning/facts.md",
+    "sha256": "0d24cb07c87278eadccce6ac6f532be905261319a9b9223b80b8c0329c3bb24e",
+    "bytes": 527
+  },
+  {
+    "path": "fixtures/planning/plan.md",
+    "sha256": "9ddf0fca1ae6b3b56c37beb6c3731f20a2233071acdf7275e0d4f03833e695bd",
+    "bytes": 245
+  }
+]

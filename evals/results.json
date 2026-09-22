@@ -1,0 +1,89 @@
+{
+  "synthetic": true,
+  "evaluation_date": "2026-09-22",
+  "release_instruction_candidate": "02",
+  "public_evidence_level": "Author-reported aggregate with synthetic rerun assets; complete private outputs and nested native transcripts are not publicly reproducible evidence.",
+  "first_pass": [
+    {
+      "condition": "control",
+      "samples": 5,
+      "criteria_per_sample": 25,
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "first_pass_counts": {
+        "PASS": 111,
+        "UNVERIFIED_EXECUTION_PROVENANCE": 5,
+        "PASS_LIMITED_EVIDENCE": 5,
+        "INCONCLUSIVE_HARNESS": 3,
+        "FAIL": 1
+      }
+    },
+    {
+      "condition": "candidate01",
+      "samples": 5,
+      "criteria_per_sample": 25,
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "first_pass_counts": {
+        "PASS": 113,
+        "UNVERIFIED_EXECUTION_PROVENANCE": 5,
+        "PASS_LIMITED_EVIDENCE": 5,
+        "FAIL": 2
+      }
+    },
+    {
+      "condition": "candidate02",
+      "samples": 5,
+      "criteria_per_sample": 25,
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high",
+      "first_pass_counts": {
+        "PASS": 114,
+        "UNVERIFIED_EXECUTION_PROVENANCE": 5,
+        "PASS_LIMITED_EVIDENCE": 5,
+        "FAIL": 1
+      }
+    }
+  ],
+  "post_feedback": {
+    "candidate": "02",
+    "rechecked_samples": 2,
+    "criteria_per_sample": 25,
+    "counts": {
+      "PASS": 46,
+      "UNVERIFIED_EXECUTION_PROVENANCE": 2,
+      "PASS_LIMITED_EVIDENCE": 2
+    },
+    "substantive_open_findings": 0,
+    "first_pass_failures_retained": true,
+    "closed_findings": [
+      "Unsupported current project phase removed.",
+      "Incorrect abbreviated source hash replaced with verified full hash."
+    ]
+  },
+  "translation": [
+    {
+      "candidate": "01",
+      "samples": 1,
+      "PASS": 10,
+      "kind": "qualitative transfer"
+    },
+    {
+      "candidate": "02",
+      "samples": 1,
+      "PASS": 10,
+      "kind": "targeted regression on reused translation material"
+    }
+  ],
+  "translation_model": "gpt-6-astra",
+  "translation_reasoning_effort": "high",
+  "limitations": [
+    "Small development samples; no universal performance or zero-error guarantee.",
+    "Development materials informed revisions and appear in examples.",
+    "Three control criteria are inconclusive because of harness ambiguity.",
+    "Native nested execution histories were incomplete; current-byte equality does not prove zero transient writes.",
+    "One translation fixture, no same-model no-Skill translation control.",
+    "Full 33-identity production audit, real external actions and application shutdown were not behaviorally exercised."
+  ],
+  "evaluator_correction": "Interim file-count, timing and missing saved CLI observations were withdrawn after final-artifact checks. Fixed rubric counts were unchanged; these are not actor failures or feedback improvements."
+}

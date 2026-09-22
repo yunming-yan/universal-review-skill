@@ -1,0 +1,17 @@
+[
+  {
+    "path": "fixtures/draft.md",
+    "sha256": "3937c7442b26924a91b6c54fdcf9039d535c3ff01e5773d69e2e084e2f8d2d3c",
+    "bytes": 206
+  },
+  {
+    "path": "fixtures/request.md",
+    "sha256": "3f7f1ef3717d0116778b6c95d5ce7d9d446a41ff7f3804f3e61b45846e1725b3",
+    "bytes": 435
+  },
+  {
+    "path": "fixtures/source.md",
+    "sha256": "a847a1e0812bc006dbc717c09a4dff7855616a5332ce6a9412656c78a9aa09fa",
+    "bytes": 399
+  }
+]

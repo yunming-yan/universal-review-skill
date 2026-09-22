@@ -1,0 +1,4 @@
+interface:
+  display_name: "通用严审"
+  short_description: "面向任意任务的整体审查、文字数字核验与修正后独立复审"
+  default_prompt: "使用 $universal-review 对当前任务进行完整审查，先核整体与事实，再核文字、数字和自然表达。"
