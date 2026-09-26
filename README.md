@@ -1,6 +1,6 @@
 # Universal Review · 通用终审
 
-A final-review Agent Skill that assembles independent specialists around the actual risks of a deliverable. It reviews evidence, logic, wording and numbers, produces a repair plan, makes authorized corrections, and reviews the final changes again.
+**语言 / Language:** [简体中文](README.md) | [English](README.en.md)
 
 一个用于最终交付的通用审查技能。适用于完整稿件、财务表格、管理与战略方案、工程项目，以及研究、设计、翻译、活动和其他成品。它按对象和风险细分真实专家，保留可追溯证据，把审查、方案、授权修正与最终复核串成连续流程。
 
