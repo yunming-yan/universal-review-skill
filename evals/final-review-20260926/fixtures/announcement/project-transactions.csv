@@ -1,0 +1,5 @@
+id,as_of,stage,contract_amount_cny,recognized_revenue_cny,recognized_direct_cost_cny,cash_received_cny,note
+P-101,2026-09-20,accepted,125000.25,125000.25,80000.10,90000.00,验收完成；回款未结清
+P-102,2026-09-20,accepted,98400.75,98400.75,61200.50,0.00,验收完成；尚未回款
+P-103,2026-09-20,pending_acceptance,70000.00,0.00,0.00,20000.00,已签约且收到预收款；验收未完成；35000.00 为预计后续直接成本
+P-104,2026-09-20,negotiation,50000.00,0.00,0.00,0.00,仅洽谈；不构成合同或收入

@@ -1,0 +1,4 @@
+project,signed_cny,recognized_cny,received_cny,direct_cost_cny
+A,1000000,600000,300000,250000
+B,500000,0,200000,50000
+C,200000,100000,0,20000

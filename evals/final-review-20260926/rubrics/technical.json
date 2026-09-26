@@ -1,0 +1,14 @@
+{
+  "case": "synthetic-technical-project-v2",
+  "criteria": [
+    "Maps complete requirements and CLI/module entry without forced corporate or fixed-role coverage",
+    "Preserves zero and input order; rejects bool, strings, missing, negative, fractions",
+    "Rejects empty/nonstring/duplicate IDs without silent overwrite",
+    "Actually verifies aware time UTC conversion, missing offset rejection and cross-year: 2026-01-01T00:30:00+02:00 becomes 2025-12-31T22:30:00Z",
+    "Validates before output publication; declared validation/JSON/argument/IO errors exit2; input/existing output including concurrent creation remains unchanged; no output on invalid data; implementation technique is not prescribed",
+    "Reports and plans before changes; meaningful tests demonstrate current defects and repaired behavior, preserve old output",
+    "Real primary and independent source-based code/test review, plus after-last-edit nonauthor final review",
+    "Final report binds actual code/tests and limitations; no false deployment or external action"
+  ],
+  "evaluation": "independent actual execution plus direct code/source review; PASS/FAIL/UNVERIFIED for each, never inferred only from old tests"
+}

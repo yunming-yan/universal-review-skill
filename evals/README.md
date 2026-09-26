@@ -2,6 +2,12 @@
 
 These fixtures are synthetic. They are deliberately inconsistent and must not be used as production code, business facts or executable operating plans.
 
+## Current final-review suite
+
+The [final-review suite](final-review-20260926/README.md) covers financial workbooks, management, technical code, public prose, numeric micro-tests and company/multi-specialist routing. Its [results](final-review-20260926/RESULTS.md) identify tested versions and evidence limits; [Skill hashes](final-review-20260926/skill-manifest.json) identify the complete-workflow version.
+
+The sections below and adjacent historical result files describe the earlier bounded-review suite. Their references to 33 identities are historical task terminology, not a requirement of the current Skill. Current expert assignments are derived from actual objects, risks and interfaces. Historical results and fixture bytes are preserved; rerunning them with the current Skill is a new experiment.
+
 ## Scope
 
 Three scenarios exercise different task types:

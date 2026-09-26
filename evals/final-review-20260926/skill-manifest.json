@@ -1,0 +1,90 @@
+{
+  "scope": "Skill bytes tested in the complete final-workflow cases and routing run",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 385,
+      "sha256": "774fa6040aac5605a07ba5c885f136536a380d27f52d2787ccc04fdf017baebb"
+    },
+    {
+      "path": "assets/numeric-ledger-example.json",
+      "bytes": 970,
+      "sha256": "008b01ebcf0b10f18a79b405ba9f21d3f70b46a2b0d48eff91e8a2e81485b3e8"
+    },
+    {
+      "path": "references/company-coverage.md",
+      "bytes": 12751,
+      "sha256": "18636ba7edd7757336f31552f06d7de66a18f106c1c99f79bab2e998f2589d80"
+    },
+    {
+      "path": "references/coverage.md",
+      "bytes": 4845,
+      "sha256": "848fdac525a3e76acd9028b8ee49df55c1e472add60a9ace871f232b6c72c9f4"
+    },
+    {
+      "path": "references/enterprise-domains.md",
+      "bytes": 8581,
+      "sha256": "3fbf33e3534e0425aec31b7d99b6905e87f369dec086906f458531fb60975879"
+    },
+    {
+      "path": "references/evidence.md",
+      "bytes": 6562,
+      "sha256": "61a295b3e4673b15e6dea39c3ba027f62b76bc1a034f8271781358b25a8aa735"
+    },
+    {
+      "path": "references/expert-orchestration.md",
+      "bytes": 7641,
+      "sha256": "46d12ebaefe0ccf231dc92294ff371f59e14fe5da3581dea799edc615300487d"
+    },
+    {
+      "path": "references/management-review.md",
+      "bytes": 6017,
+      "sha256": "6e151a12b2333b8f9d323a63c3a11e9f7bccc1aecda11181f5e5b47a48635bf3"
+    },
+    {
+      "path": "references/numeric-helper.md",
+      "bytes": 4103,
+      "sha256": "d342b285927ae5cca803585dac5c54304ae22c155408e151eef3866c3f0645d7"
+    },
+    {
+      "path": "references/official-legal-pr.md",
+      "bytes": 6168,
+      "sha256": "7e831aa59a3c0f708240f10f426be27d594ae44e532201f3540f78c569a34575"
+    },
+    {
+      "path": "references/quantitative-review.md",
+      "bytes": 7810,
+      "sha256": "df3b321eb47ea698ead1a9df645236af765d0e4c04c73e612536fc8a00e9718c"
+    },
+    {
+      "path": "references/repair-plan.md",
+      "bytes": 3464,
+      "sha256": "b823f6ce00d258ffcf6f4eb2037b2223adbfc0bccdade23560b8e9df6d1240a8"
+    },
+    {
+      "path": "references/task-checks.md",
+      "bytes": 5874,
+      "sha256": "ac67c53c1b51419202ce724427b8095357fac84daacb061b2e088eafb2ffaa50"
+    },
+    {
+      "path": "references/text-and-numbers.md",
+      "bytes": 6617,
+      "sha256": "0353bf6fcc4159da1b1d8f731eb647014c75fd9557133276493a1e9fd0ba9289"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 8427,
+      "sha256": "b0eadf2497f81bceccbfc27171bf24ff94749bbebcdaff870aec64f25c887a34"
+    },
+    {
+      "path": "scripts/numeric_recheck.py",
+      "bytes": 10212,
+      "sha256": "561065f1998973d6a048caa6e238e8266930ac63363b24378a0c18534c84472b"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5909,
+      "sha256": "32355fc25f9efca7b6fa3a03f58592cde997abaf4497691bac9ae7d6465682bf"
+    }
+  ]
+}

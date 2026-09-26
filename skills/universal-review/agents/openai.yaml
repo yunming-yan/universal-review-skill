@@ -1,4 +1,4 @@
 interface:
-  display_name: "通用严审"
-  short_description: "面向任意任务的整体审查、文字数字核验与修正后独立复审"
-  default_prompt: "使用 $universal-review 对当前任务进行完整审查，先核整体与事实，再核文字、数字和自然表达。"
+  display_name: "通用终审"
+  short_description: "按风险细分真实专家，先报告与闭环方案，再授权修正并独立终审"
+  default_prompt: "使用 $universal-review 对当前完整交付物作全面独立终审，先给审查报告与逻辑闭环方案，再按已有授权连续修正，实际复算数字，最后复审全部改动和整件成品。"

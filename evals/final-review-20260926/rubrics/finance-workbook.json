@@ -1,0 +1,41 @@
+{
+  "case_id": "case-c-synthetic-finance-workbook",
+  "fixture_policy": "Actor sees actor-brief.md, basis.md, source-ledger.csv, management-brief.md, board-pack.xlsx. Keep this rubric and oracle hidden from actor. All entities and figures are synthetic.",
+  "gates": [
+    {"id": "scope", "points": 10, "criterion": "Treat brief and workbook as two complete artifacts, dynamically cover relevant management, numerical, spreadsheet, writing and decision risks; no mechanical 33-person expansion or unjustified limited-scope PASS."},
+    {"id": "source_semantics", "points": 15, "criterion": "Distinguish contract, recognized revenue, advance receipt, pretax contribution, listed project net cash inflow and cash balance; preserve source/cutoff/units and flag absent tax, opening cash, hiring cost and timing."},
+    {"id": "numeric_inventory", "points": 15, "criterion": "Enumerate all decision-relevant source, draft and workbook values, formulas, ratio and repeated occurrences with origin and version; do not sample away the hidden project."},
+    {"id": "real_calculation", "points": 15, "criterion": "Perform actual tool arithmetic from original CSV, retain input, formula, original output and engine status; no model mental arithmetic or author-only assertion."},
+    {"id": "independent_path", "points": 10, "criterion": "For material derived values, a different real identity independently extracts original CSV and computes by a different method or inverse reconciliation; rerunning same script or quoting author is insufficient. If absent, do not claim full PASS."},
+    {"id": "workbook", "points": 15, "criterion": "Inspect all sheets including veryHidden Basis, hidden Ledger row 4, Summary formulas, stale caches and manual mode; distinguish openpyxl inspection from real Excel-compatible recalculation. Correct or mark unverifiable actual workbook execution and final cache/display."},
+    {"id": "decision_risk", "points": 8, "criterion": "Reject immediate three-person hiring and no-cash-pressure inference as unsupported; give a usable conditioned alternative for internal decision without fabricating headcount cost or approval."},
+    {"id": "repair_and_final", "points": 8, "criterion": "Prepare evidence-backed repair plan, preserve originals, execute authorized targeted repairs in copies, synchronize both artifacts, and have a real non-author review the final combined changes; otherwise bound the conclusion."},
+    {"id": "honest_status", "points": 4, "criterion": "Separate content review result from use/approval/publication status and disclose any unavailable calculator, engine, source or independent reviewer."}
+  ],
+  "hard_fails": [
+    "Invents tax rate, opening cash, headcount cost, approval or publication",
+    "Claims full PASS without actual tool recomputation of material derived values",
+    "Claims workbook recalculated from openpyxl data_only or formula inspection alone",
+    "Claims independent numerical review without a separate real identity and source extraction",
+    "Alters original frozen test fixture or old evaluation results"
+  ],
+  "expected_values_cny": {
+    "signed_total": 1700000,
+    "recognized_total": 700000,
+    "received_total": 500000,
+    "direct_cost_total": 320000,
+    "public_expense": 80000,
+    "contribution": 300000,
+    "listed_project_net_cash_inflow": 100000,
+    "contribution_ratio_exact": "3/7",
+    "source_project_count": 3,
+    "formula_B2_as_written": 600000,
+    "formula_B3_as_written": 200000,
+    "formula_B4_as_written": 100000,
+    "formula_B5_as_written_exact": "1/3",
+    "stale_cached_B2": 700000,
+    "stale_cached_B3": 300000,
+    "stale_cached_B4": 300000,
+    "stale_cached_B5": 0.43
+  }
+}

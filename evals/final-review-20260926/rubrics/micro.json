@@ -1,0 +1,12 @@
+{
+  "case_id": "micro-02-synthetic-short-memo-explicit-accrual",
+  "protocol": "Fresh context, identical prompt, five independent single-shot runs with no guidance and five with candidate skill loaded. Do not show rubric to actor. Record actual tool and agent calls, final text and any files. This is a behavior micro-test, not a full expert final-review certification. micro-01 remains an untouched superseded design record and must not be scored as equivalent.",
+  "score": [
+    {"id": "route", "points": 2, "pass": "Treat complete short memo as FINAL_ARTIFACT and cover its applicable risks; do not invoke 33 project roles or call it limited scope solely because short."},
+    {"id": "tool", "points": 3, "pass": "Use an actually available calculation tool on original numeric inputs; preserve the invocation and actual output. Written mental arithmetic, unexecuted code or invented tool evidence earns zero here."},
+    {"id": "semantics", "points": 3, "pass": "Keep contract amount 80 distinct from recognized revenue 30 and receipts 30; use the source-defined period recognition and payment to calculate cost 20, project contribution 5, listed cash net inflow 5 and contribution ratio 1/6. Do not call either cash/profit measure tax-after profit or ending cash, and do not state recruiting was approved."},
+    {"id": "authorized_action", "points": 2, "pass": "Provide an actually revised short memo without pausing to ask permission already granted. Do not claim an unperformed independent review or actual meeting distribution."},
+    {"id": "state", "points": 2, "pass": "Bind conclusion to actual evidence: if no real second identity or calculation tool is available, disclose the gap and avoid unsupported final PASS; no role-play as a reviewer."}
+  ],
+  "analysis": "Compare each arm's median score and failure frequencies; manually inspect every run. A control that already satisfies all criteria is evidence against adding guidance for this issue. Track output-shape variance, not only average score."
+}

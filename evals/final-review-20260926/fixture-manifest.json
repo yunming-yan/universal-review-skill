@@ -1,0 +1,144 @@
+{
+  "files": [
+    {
+      "path": "fixtures/announcement/actor-brief.md",
+      "bytes": 1627,
+      "sha256": "805355cb94f07ccdfc26145b8b129e114b4a5763ec7c296d0591e151784f0c3b"
+    },
+    {
+      "path": "fixtures/announcement/budget.csv",
+      "bytes": 196,
+      "sha256": "d1030a3a41c00f3d26380087dc0ab91a9ab2b6366e9364292657ba3a512d5f93"
+    },
+    {
+      "path": "fixtures/announcement/cash-movements.csv",
+      "bytes": 292,
+      "sha256": "221526ab73a8a3c8e6ab457561324195074964df4169e78b8683392b0fff7e01"
+    },
+    {
+      "path": "fixtures/announcement/comparison.csv",
+      "bytes": 271,
+      "sha256": "609cc9c17d3574b2758358cbd7df29945ea357510b8ef67a22b5a7e1382bc348"
+    },
+    {
+      "path": "fixtures/announcement/draft-announcement.md",
+      "bytes": 1251,
+      "sha256": "1c692c1395b82fff873b87f7a8a5220e8adb65689c6e53513fd768762cf2a737"
+    },
+    {
+      "path": "fixtures/announcement/external-release-v1.md",
+      "bytes": 270,
+      "sha256": "853e14b41a5c02f13df67060c054200c60b4163a931a8d213dac03cbc296f06e"
+    },
+    {
+      "path": "fixtures/announcement/external-release-v2.md",
+      "bytes": 696,
+      "sha256": "c3c02c59122f99bb96b13b1a053bb5df25917124365e388c235c599ffc097813"
+    },
+    {
+      "path": "fixtures/announcement/legal-and-approval-record.md",
+      "bytes": 930,
+      "sha256": "67fdc6bf1c61234b4a1d436b37a09c3e37efc43f13cdbaed4b361f1b247bfea5"
+    },
+    {
+      "path": "fixtures/announcement/operations-source.md",
+      "bytes": 1384,
+      "sha256": "72f3ccf8125e6839e7d87f13e0b98bc99584d222ba46e2ff93fc5c72d77b7ea1"
+    },
+    {
+      "path": "fixtures/announcement/policy-register.md",
+      "bytes": 637,
+      "sha256": "de53d3f199d2700d85eda28d1d7d73779a6d9193dc2aca6e083a28a945412a2e"
+    },
+    {
+      "path": "fixtures/announcement/previous-review.md",
+      "bytes": 484,
+      "sha256": "4b405c40734b385853c6e8eea0f535373423fec74191345828021cbb9cbcb0cf"
+    },
+    {
+      "path": "fixtures/announcement/project-transactions.csv",
+      "bytes": 528,
+      "sha256": "a64445f088b34f4b97c68aa76912104ee589923daad0c7d806b344c3002c51d4"
+    },
+    {
+      "path": "fixtures/finance-workbook/actor-brief.md",
+      "bytes": 1459,
+      "sha256": "07a82629ee9dc8563d16556f0db6ca0cde7a9522f568a1c71a5fe5c682ea0edd"
+    },
+    {
+      "path": "fixtures/finance-workbook/basis.md",
+      "bytes": 1401,
+      "sha256": "e7b9bb01a35b71626adb9bb803f457b3d2a39408cfd3f50942a5b1123f521c7d"
+    },
+    {
+      "path": "fixtures/finance-workbook/board-pack.xlsx",
+      "bytes": 6434,
+      "sha256": "13c27f01ee88533fe92e6f692be08dc42cf19d67a950937f67b427f502ebe213"
+    },
+    {
+      "path": "fixtures/finance-workbook/management-brief.md",
+      "bytes": 516,
+      "sha256": "3bed929b0e5859ee316e74c4c1a7c57c7aae239618a50b7377efc996bd1b076b"
+    },
+    {
+      "path": "fixtures/finance-workbook/source-ledger.csv",
+      "bytes": 142,
+      "sha256": "c038053b44b122c84f948057d1f6c8e6c35a6270a0d5a2e432faf30c11b96da8"
+    },
+    {
+      "path": "fixtures/management/action-table.csv",
+      "bytes": 109,
+      "sha256": "dae8de596d9308931571874092249bff99619006e0f7b790254cf2775ebf4f62"
+    },
+    {
+      "path": "fixtures/management/actor-brief.md",
+      "bytes": 985,
+      "sha256": "bb18ad1786a6067f6a9596c245dde15173a436cc46a908c71cb36fd81a718e24"
+    },
+    {
+      "path": "fixtures/management/capacity.csv",
+      "bytes": 66,
+      "sha256": "d2858c26914eca492920ea358b2fcf376bc0f6ceb0e5e93940274e9a46c943a7"
+    },
+    {
+      "path": "fixtures/management/mandate.md",
+      "bytes": 1241,
+      "sha256": "c6e582e237b9059006e599b7ab1a0ad492babb38a541a65fcce8c5b5262f9328"
+    },
+    {
+      "path": "fixtures/management/proposal.md",
+      "bytes": 794,
+      "sha256": "3bd0d1d0bceefd1b955756822597e6969b7a21d702e50a5e5ef255e717f04957"
+    },
+    {
+      "path": "fixtures/technical/actor-brief.md",
+      "bytes": 898,
+      "sha256": "c14cb362ee7d5b4cc0faa04fdc1c38f532b059e7a8448e6c95a978a4c8ccbffd"
+    },
+    {
+      "path": "fixtures/technical/converter.py",
+      "bytes": 673,
+      "sha256": "8baa8f5129d12da6f30d78434a9acd025b74f222281b9a1e7a1a6e5d35a66458"
+    },
+    {
+      "path": "fixtures/technical/requirements.md",
+      "bytes": 1198,
+      "sha256": "1f8bf84c1e07e41e7a6f82a1fb4b21d5166678584db3c8af9f787fcbf25ebdd2"
+    },
+    {
+      "path": "fixtures/technical/test_existing.py",
+      "bytes": 442,
+      "sha256": "102f481176936348ad4a0d87900c6307fa3d4a8d39b0c49e91f6e272bd902b14"
+    },
+    {
+      "path": "fixtures/micro/prompt.md",
+      "bytes": 1051,
+      "sha256": "6200f539827ee0411c045f64f7ff3f6f11a905fdc92c5e0a4bd241a82af36254"
+    },
+    {
+      "path": "fixtures/routing/prompt.md",
+      "bytes": 1743,
+      "sha256": "f2babacfd46c16f4553007d5970edf20a4e96ffdc567f6b4947bd56c062c590b"
+    }
+  ]
+}
