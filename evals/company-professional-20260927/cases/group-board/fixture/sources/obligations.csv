@@ -1,0 +1,3 @@
+debtor,purpose,currency,due_date,amount_millions,status
+P,proposed-capital-expenditure,CNY,2026-10-15,55,conditional-on-board-approval
+P,existing-debt-maturity,CNY,2026-10-31,12,contractually-due

@@ -1,0 +1,6 @@
+# Entity, currency, period and evidence status (fictional)
+
+- Parent P owns Subsidiary S. Their bank accounts and spending approvals belong to different legal persons. P may not automatically use S's balance; any transfer requires a separate lawful and approved upstreaming process. No upstreaming approval exists in these records.
+- All amounts below are **CNY millions** with exact integer source values. Bank balances are measured at the close of **2026-09-30**. The proposed uses below fall due by **2026-10-31**. The exercise contains no verified new inflows or other usable funding for P during this interval. No claim is made about later months or real solvency.
+- P's entire CNY 40 million bank balance is unrestricted and available to P at the measurement point. S holds CNY 10 million unrestricted and CNY 20 million contractually restricted for S's separate project. Neither S amount is currently available to P. Group presentation may show P+S, but legal-entity liquidity remains separate.
+- These are fictional source records for review-method testing, not bank confirmations or audited financial statements. An actual enterprise would need original statements, contracts, legal conditions, signatures and complete entity inventory.

@@ -1,0 +1,3 @@
+lp_group,commitment_millions,contributed_millions,annual_fee_rate,side_letter_status
+LP A,40,40,0.01,signed-exception
+Other LPs,60,60,0.02,none

@@ -1,6 +1,6 @@
 ---
 name: universal-review
-description: "Use when a task, document, financial report, spreadsheet, decision proposal, design or project needs final review or acceptance; for 终审、定稿、提交前校对、数字复核、管理方案审查、法律依据或对外文稿复核; or when explicitly invoked as $universal-review."
+description: "Use for rigorous final review or acceptance of any deliverable, including financial reports, investment and executive-office work, code, data, research, design, formal writing and unknown specialist tasks; for 终审、定稿、数字复核、公司治理、特助材料、代码审查; or when explicitly invoked as $universal-review."
 ---
 
 # Universal Review · 通用终审
@@ -21,7 +21,7 @@ description: "Use when a task, document, financial report, spreadsheet, decision
 
 所有完整终审读 [Workflow](references/workflow.md)、[覆盖与专家编排](references/expert-orchestration.md)、[证据与状态](references/evidence.md)。逐要求、逐对象按 [覆盖本体](references/coverage.md) 建矩阵，不能只勾角色名称。
 
-1. **核当前实物。** 完整分段读所需原文、源数据、附件和依赖；截断补读。冻结输入及有效要求，区分旧基线、同期变化和本轮修改。
+1. **核当前实物与工作区。** 先读适用的用户、平台、`AGENTS.md`及项目规则，确定正式成果和本任务专属过程区；工作区规则不能替用户授权业务动作。完整分段读所需原文、源数据、附件和依赖；截断补读。冻结输入及有效要求，区分旧基线、同期变化和本轮修改。
 2. **细分专家并真实派发。** 从实际问题选专业主审、异人反证与最后非作者总审。高风险跨领域拆人，尽可能细分有实质差别的任务；人数由覆盖需要决定，不先定少数专家，也不凑无关人数。原源与最终版本均须直接核查。
 3. **全面核验。** 需求到成品、成品到来源双向反查。所有数字先列清；凡可计算或程序核验的项目，实际运行可靠工具，不能以模型心算、口头算式或未执行代码代替。第二路统一按数值协议Q4：金融/财务/预算派生值异人独立实算，相应直接原值异人提取，其他重大/决定性数值按该门分流。
 4. **先报告和方案，再实施。** 按 [修正方案合同](references/repair-plan.md) 保存并主动呈现发现、推荐方案、精确影响及验证/恢复方法；方案自身先查前后逻辑与数字。已有授权时呈现后连续执行，不制造批准门；反馈、新发现或源变化会更新方案版本及相关复核。
@@ -35,14 +35,18 @@ description: "Use when a task, document, financial report, spreadsheet, decision
 | 任意数字、日期、计数、公式或表格 | [可复算数值终审](references/quantitative-review.md)：原值核源、实际计算、金融口径、工作簿引擎、独立复算 |
 | 公文、法律主张、合同、公开或敏感传播 | [公文·法律·公关](references/official-legal-pr.md)：文种、法源适用、承诺强度、受众反证 |
 | 战略、经营、组织、投资、治理、CEO办公 | [管理与决策](references/management-review.md)；需要时读 [企业跨业务触发](references/enterprise-domains.md) |
+| 法定财报、集团合并、董事会财务包、融资披露或重大财务预测 | [财报与董事会财务包](references/financial-reporting.md)，沿 [数值终审](references/quantitative-review.md) 核原源、准则、期间和异人实算 |
+| 基金募集、投资/退出、LP报告、基金NAV或PE/VC管理人治理 | [投资机构与基金](references/investment-fund.md)，按真实实体、法域、基金协议和侧函分流 |
+| 董事会包、CEO/董事长办公室、特别助理、高管发言或跨部门督办 | [高管办公室](references/executive-office.md)，核原话、决议、权限和执行/公开状态 |
 | 整个公司/集团或跨业务全面终审 | 先读 [公司全景与联合审查](references/company-coverage.md)，按实际职责、实体、地区与生命周期盘点，再派专家；少数文件不能证明全公司已审 |
-| 软件、研究、视觉、活动、个人事务或其他对象 | [任务适配器](references/task-checks.md)；未知领域按目标、输入、方法、输出、失败后果继续拆专业问题 |
+| 软件、数据、研究、AI、产品、设计或其他专业对象 | [任务适配器](references/task-checks.md)；专业技术方法触发时再读 [技术与专业方法](references/technical-method-review.md) |
+| 活动、个人事务、创作或仍未知对象 | [任务适配器](references/task-checks.md)；按目标、输入、方法、输出、失败后果与可观察证据继续拆问题 |
 
-定性判断使用证据、反例、替代解释、受影响者、责任和重开条件；不为管理问题编造分数。公众人物方法可作有源启发，不能把二手推论变成其原话或任何企业内部标准。
+同一对象可触发多行，须分别加载适用方法并在共同断言、数字、条件和版本上汇合；未知不是不适用。定性判断使用证据、反例、替代解释、受影响者、责任和重开条件；不为管理问题编造分数。公众人物方法可作有源启发，不能把二手推论变成其原话或任何企业内部标准。
 
 ## 交付与停止条件
 
-交付最终成品、审查报告、推荐方案及实际执行对应表，说明最终版本、专家覆盖、来源与计算、全部修正复审、未核项和业务执行状态。详证留在任务工作区，旧失败和旧版本保留为历史，当前入口不得并行使用冲突规则。
+交付最终成品、审查报告、推荐方案及实际执行对应表，说明最终版本、专家覆盖、来源与计算、全部修正复审、未核项和业务执行状态。详证按 [证据与状态](references/evidence.md) 集中留在任务专属过程区，与正式成果及发布写集隔离；旧失败和旧版本保留为历史，当前入口不得并行使用冲突规则。
 
 每个适用问题均有具名责任、直接证据和最终非作者复核；重大/跨专业风险另有异人直接回源反证；问题和修改闭环、最终同版，才对该确切范围签 PASS。低风险可合并派工，但必须记录其终版复核者，不能消失于总括结论。覆盖完成后停止重复增派，新风险出现则重开。真实能力、来源、依法/依约需要的专业签署或权限缺口保留 PARTIAL/UNVERIFIED/BLOCKED，继续无依赖工作，不编造证据。
 

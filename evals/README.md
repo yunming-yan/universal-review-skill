@@ -2,7 +2,11 @@
 
 These fixtures are synthetic. They are deliberately inconsistent and must not be used as production code, business facts or executable operating plans.
 
-## Current final-review suite
+## Company and professional source cases
+
+The [company and professional cases](company-professional-20260927/README.md) provide fictional group-board, fund and offline-code inputs with an exact public source manifest. Their [results](company-professional-20260927/RESULTS.md) identify the tested Skill version, actual execution, independent review and remaining boundaries. Source inputs are published for inspection; host-specific grading history and raw Actor workpapers remain private, so this package is **not** an externally identical replay of the private scoring exercise. A finite case cannot certify any company's internal controls, all financial reports, or all code.
+
+## Prior final-review suite
 
 The [final-review suite](final-review-20260926/README.md) covers financial workbooks, management, technical code, public prose, numeric micro-tests and company/multi-specialist routing. Its [results](final-review-20260926/RESULTS.md) identify tested versions and evidence limits; [Skill hashes](final-review-20260926/skill-manifest.json) identify the complete-workflow version.
 

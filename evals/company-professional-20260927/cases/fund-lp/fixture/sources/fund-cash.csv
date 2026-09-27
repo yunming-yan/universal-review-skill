@@ -1,0 +1,4 @@
+account_owner,record,as_of,currency,amount_millions,status
+F1,exit-proceeds,2026-09-30,CNY,120,received-by-fund
+F1,total-called-and-contributed-capital,2026-09-30,CNY,100,aggregate-only-dates-not-supplied
+F1,cumulative-preference-accrued,2026-09-30,CNY,8,agreement-specified
